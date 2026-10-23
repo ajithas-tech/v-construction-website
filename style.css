@@ -809,3 +809,34 @@ html {
         padding: 65px 6%;
     }
 }
+
+/* ABOUT SECTION - BLACK & GOLD FIX */
+
+section.about.section#about {
+    background: #101010 !important;
+    color: #f5f5f5 !important;
+    padding: 100px 8%;
+}
+
+section.about.section#about h2 {
+    color: #ffffff !important;
+}
+
+section.about.section#about h2 span {
+    color: #d4af37 !important;
+}
+
+section.about.section#about p {
+    color: #c9c5ba !important;
+    line-height: 1.9;
+}
+
+section.about.section#about .section-label {
+    color: #d4af37 !important;
+}
+
+@media (max-width: 768px) {
+    section.about.section#about {
+        padding: 65px 6%;
+    }
+}
