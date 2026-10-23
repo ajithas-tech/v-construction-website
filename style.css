@@ -1122,3 +1122,10 @@ section.about.section#about .section-label {
 .hero::before {
     opacity: 0.45;
 }
+/* Final hero heading size */
+
+.hero h1 {
+    font-size: clamp(32px, 3.5vw, 52px);
+    line-height: 1.12;
+    max-width: 550px;
+}
