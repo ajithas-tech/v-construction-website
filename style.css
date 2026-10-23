@@ -992,3 +992,27 @@ section.about.section#about .section-label {
         min-height: 140px;
     }
 }
+
+/* PREMIUM ABOUT SECTION */
+
+.about.section {
+    background: #101010 !important;
+    color: #f5f5f5;
+    padding: 90px 8%;
+}
+
+.about.section h2 {
+    color: #ffffff;
+}
+
+.about.section h2 span {
+    color: #d4af37;
+}
+
+.about.section p:not(.section-label) {
+    color: #c8c8c8;
+}
+
+.about.section .section-label {
+    color: #d4af37;
+}
