@@ -1111,3 +1111,14 @@ section.about.section#about .section-label {
         line-height: 1.15;
     }
 }
+/* Improve hero background image */
+
+.hero {
+    background-blend-mode: normal;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero::before {
+    opacity: 0.45;
+}
