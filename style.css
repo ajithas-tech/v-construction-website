@@ -881,3 +881,64 @@ section.about.section#about .section-label {
         height: 280px;
     }
 }
+
+/* PREMIUM SERVICES SECTION */
+
+.services.section {
+    background: #101010 !important;
+    color: #ffffff;
+    padding: 90px 8%;
+}
+
+.services.section h2 {
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.services.section .section-label {
+    color: #d4af37;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background: #1b1b1b !important;
+    border: 1px solid #4a3b18 !important;
+    border-radius: 6px;
+    padding: 32px 25px;
+    min-height: 170px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: #d4af37 !important;
+}
+
+.service-card h3 {
+    color: #d4af37 !important;
+    margin-bottom: 14px;
+}
+
+.service-card p {
+    color: #d0ccc2;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .services.section {
+        padding: 65px 6%;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+}
