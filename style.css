@@ -1067,3 +1067,24 @@ section.about.section#about .section-label {
         font-size: 15px;
     }
 }
+/* Improve hero background visibility */
+
+.hero {
+    background-color: #101010;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1 {
+    color: #ffffff;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.hero h1 span {
+    color: #d4af37;
+}
+
+.hero p {
+    color: #e0ddd5;
+}
