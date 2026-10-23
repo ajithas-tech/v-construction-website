@@ -840,3 +840,44 @@ section.about.section#about .section-label {
         padding: 65px 6%;
     }
 }
+
+/* ABOUT SECTION WITH IMAGE */
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    min-width: 0;
+}
+
+.about-image img {
+    display: block;
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.about-content .button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-image img {
+        height: 280px;
+    }
+}
