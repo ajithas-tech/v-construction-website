@@ -771,3 +771,41 @@ html {
 .hero .button {
     box-shadow: 0 5px 18px rgba(212, 175, 55, 0.18);
 }
+
+/* PREMIUM ABOUT SECTION */
+
+.about {
+    background: #101010;
+    color: #f5f5f5;
+    padding: 100px 8%;
+}
+
+.about h2 {
+    color: #ffffff;
+}
+
+.about h2 span {
+    color: #d4af37;
+}
+
+.about p {
+    color: #c9c5ba;
+    line-height: 1.9;
+}
+
+.about .section-label {
+    color: #d4af37;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.about img {
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 65px 6%;
+    }
+}
