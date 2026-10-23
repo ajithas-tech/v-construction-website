@@ -942,3 +942,53 @@ section.about.section#about .section-label {
         grid-template-columns: 1fr;
     }
 }
+
+/* SERVICES LAYOUT REFINEMENT */
+
+.services.section {
+    padding: 80px 6% !important;
+}
+
+.services.section h2 {
+    margin-bottom: 30px;
+}
+
+.service-grid {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    margin: 30px auto 0;
+}
+
+.service-card {
+    width: 100%;
+    min-height: 190px;
+    padding: 30px 24px !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-card h3 {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.service-card p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+    .service-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .service-card {
+        min-height: 140px;
+    }
+}
